@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtualenv
+.venv/
+
+# Captures / datasets (regenerate via scripts/make_sample_pcap.py)
+data/pcaps/*.pcap
+data/pcaps/*.pcapng
